@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <p>estamos aprendendojavascript</p>
+    <p>aprender e muito legal</p>
+    <p>e presiso aplicar para aprender</p>
+    </div>
+    <input type="button" onclick="triste();" value="triste">
+        <input type="button" onclick="feliz();" value="feliz">
+
+    <img src="img/triste.jpg"id="foto" style="width: 350px;">
+
+
+
+    <Script>
+        function triste(){
+            var tag_img = document.getElementsByTagName('img')[0]
+            console.log(tag_img)
+            tag_img.src="img/triste.jpg";
+        }
+        function feliz(){
+            var tag_img = document.getElementsByTagName('img')[0]
+            console.log(tag_img)
+            tag_img.src="img/feliz.jpg";
+        }
+
+    </Script>
+ 
+</body>
+
+</html>
